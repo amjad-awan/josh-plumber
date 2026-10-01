@@ -6,19 +6,19 @@ import { WhatsAppFloat } from '@/components/Header'
 export const metadata: Metadata = {
   metadataBase: new URL('https://www.pursgloveplumbing.co.uk'),
   title: {
-    default: 'Pursglove Plumbing & Heating | Manchester',
+    default: 'Pursglove Plumbing & Heating | Northampton',
     template: '%s | Pursglove Plumbing & Heating',
   },
-  description: 'Professional plumbing and heating services in Manchester and surrounding areas.',
+  description: 'Professional plumbing and heating services in Northampton and surrounding areas.',
   alternates: { canonical: '/' },
   openGraph: {
-    title: 'Pursglove Plumbing & Heating | Manchester',
-    description: 'Professional plumbing and heating services in Manchester and surrounding areas.',
+    title: 'Pursglove Plumbing & Heating | Northampton',
+    description: 'Professional plumbing and heating services in Northampton and surrounding areas.',
     url: 'https://www.pursgloveplumbing.co.uk',
     siteName: 'Pursglove Plumbing & Heating',
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Pursglove Plumbing & Heating', description: 'Professional plumbing and heating services in Manchester.' },
+  twitter: { card: 'summary_large_image', title: 'Pursglove Plumbing & Heating', description: 'Professional plumbing and heating services in Northampton.' },
   generator: 'v0.app',
  icons: {
     icon: '/favicon.png',

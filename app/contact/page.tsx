@@ -8,9 +8,9 @@ import {
 } from "@/components/Header";
 import { ContactForm } from "@/components/ContactForm";
 export const metadata = {
-  title: "Contact a Plumber in Manchester | Request a Quote",
+  title: "Contact a Plumber in Northampton | Request a Quote",
   description:
-    "Contact Pursglove Plumbing & Heating in Manchester for plumbing repairs, heating work, installations and emergency call-outs.",
+    "Contact Pursglove Plumbing & Heating in Northampton for plumbing repairs, heating work, installations and emergency call-outs.",
 };
 export default function ContactPage() {
   return (

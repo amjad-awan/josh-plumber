@@ -12,7 +12,7 @@ const reviews = [
   {
     id: 1,
     name: "James Wilson",
-    location: "Manchester",
+    location: "Northampton",
     date: "2 weeks ago",
     rating: 5,
     text: "Excellent service from start to finish. They arrived on time, quickly identified the leaking pipe, and fixed everything at a fair price. Would definitely recommend!",
@@ -66,7 +66,7 @@ const reviews = [
   {
     id: 7,
     name: "Daniel Harris",
-    location: "Manchester",
+    location: "Northampton",
     date: "1 month ago",
     rating: 5,
     text: "We needed a new kitchen tap fitted and a small leak repaired. Everything was done in one visit, and the work was clean and tidy.",

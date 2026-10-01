@@ -5,7 +5,7 @@ export interface ServiceArea {
 
 export const serviceAreas: ServiceArea[] = [
   {
-    name: "Manchester City Centre",
+    name: "Northampton City Centre",
     description: "Full plumbing services throughout the city centre",
   },
   {

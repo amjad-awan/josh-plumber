@@ -131,7 +131,7 @@ export function Footer() {
             </span>
           </Link>
           <p className="footer-intro">
-            Professional plumbing and heating services in Manchester and
+            Professional plumbing and heating services in Northampton and
             surrounding areas.
           </p>
         </div>

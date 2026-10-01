@@ -79,7 +79,7 @@ export default function HomePage() {
               <span className="eyebrow">Local knowledge</span>
               <h2>Here when you need a hand.</h2>
               <p>
-                We serve Manchester and nearby areas with dependable plumbing
+                We serve Northampton and nearby areas with dependable plumbing
                 and heating support. Tell us what is happening and we will help
                 you understand the next step.
               </p>
@@ -115,9 +115,9 @@ export default function HomePage() {
 }
 
 export const metadata = {
-  title: "JP Plumbing & Heating | Manchester Plumber",
+  title: "JP Plumbing & Heating | Northampton Plumber",
   description:
-    "JP Plumbing & Heating provides plumbing, radiator, bathroom and heating services across Manchester. No job is too small.",
+    "JP Plumbing & Heating provides plumbing, radiator, bathroom and heating services across Northampton. No job is too small.",
 };
 
 void metadata;
