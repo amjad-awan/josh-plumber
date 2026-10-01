@@ -28,7 +28,7 @@ export function Header() {
         >
           <Image
             className="brand-logo"
-            src="/screen.png"
+            src="/logo.png"
             alt="JP Plumbing & Heating"
             width={483}
             height={156}
