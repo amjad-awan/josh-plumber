@@ -289,7 +289,7 @@ export function ServiceCard({
   compact?: boolean;
 }) {
   return (
-  <article className={`service-card ${compact ? "service-card-compact" : ""}`} id={service.id}><div className="service-card-image"><img src={service.image} alt={service.imageAlt} loading="lazy" /><span className="service-card-icon"><IconByName name={service.icon} /></span></div><div className="service-card-body"><span className="service-card-kicker">JP Plumbing & Heating</span><h3>{service.title}</h3><p>{service.description}</p><Link href={`/services#${service.id}`} className="text-link">Explore service <span aria-hidden="true">→</span></Link></div></article>
+  <article className={`service-card ${compact ? "service-card-compact" : ""}`} id={service.id}><div className="service-card-image"><img src={service.image} alt={service.imageAlt} loading="lazy" /><span className="service-card-icon"><IconByName name={service.icon} /></span></div><div className="service-card-body"><span className="service-card-kicker">JP Plumbing & Heating</span><h3>{service.title}</h3><p>{service.details}</p><Link href={`/services#${service.id}`} className="text-link">Explore service <span aria-hidden="true">→</span></Link></div></article>
   )
 }
 

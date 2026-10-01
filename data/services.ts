@@ -35,7 +35,7 @@ export const services: Service[] = [
     description: "Installation, repair, and maintenance of boilers and heating systems",
     details: "Keep your home warm and comfortable with our professional boiler and heating services. We repair existing systems and install new efficient boilers from leading manufacturers.",
     icon: "Flame",
-    image: "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=800&q=80", // Verified active heating/engineer image
+    image: "https://plus.unsplash.com/premium_photo-1664301972519-506636f0245d?q=80&w=896&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", // Verified active heating/engineer image
     imageAlt: "Modern home heating system and boiler installation",
   },
   {
@@ -80,7 +80,7 @@ export const services: Service[] = [
     description: "Expert boiler repair and servicing for all makes",
     details: "Gas and oil boiler repairs, breakdowns, and servicing. Our engineers diagnose issues quickly and provide effective repairs to restore your heating.",
     icon: "Wrench",
-    image: "https://images.unsplash.com/photo-1517646277262-5a5f9635b71c?auto=format&fit=crop&w=800&q=80", // Fixed broken link
+    image: "https://plus.unsplash.com/premium_photo-1663047170515-66632d2a374d?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", // Fixed broken link
     imageAlt: "Heating engineer servicing and repairing a home boiler",
   },
   {
