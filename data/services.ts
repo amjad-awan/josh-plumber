@@ -15,8 +15,8 @@ export interface Service {
   description: string;
   details: string;
   icon: string;
-  image: string; // Added image field
-    imageAlt: string
+  image: string;
+  imageAlt: string; // Added alt text property
 }
 
 export const services: Service[] = [
@@ -27,14 +27,16 @@ export const services: Service[] = [
     details: "From burst pipes and flooding to blocked drains and gas leaks, we respond quickly to any plumbing emergency. Our experienced team is available around the clock to minimise damage and get your plumbing working again.",
     icon: "AlertCircle",
     image: "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=800&q=80",
+    imageAlt: "Plumber fixing a pipe leak in an emergency situation",
   },
-  {
+{
     id: "boiler-heating",
     title: "Boiler & Heating",
     description: "Installation, repair, and maintenance of boilers and heating systems",
     details: "Keep your home warm and comfortable with our professional boiler and heating services. We repair existing systems and install new efficient boilers from leading manufacturers.",
     icon: "Flame",
-    image: "https://images.unsplash.com/photo-1542013936693-84d4b65e3abb?auto=format&fit=crop&w=800&q=80",
+    image: "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=800&q=80", // Verified active heating/engineer image
+    imageAlt: "Modern home heating system and boiler installation",
   },
   {
     id: "leaking-pipes",
@@ -43,6 +45,7 @@ export const services: Service[] = [
     details: "Small leaks can waste water and damage your home. We identify the source quickly and provide reliable repairs to stop leaks and prevent costly water damage.",
     icon: "Droplets",
     image: "https://images.unsplash.com/photo-1607472586893-edb57bdc0e39?auto=format&fit=crop&w=800&q=80",
+    imageAlt: "Close up of a dripping tap requiring repair",
   },
   {
     id: "blocked-drains",
@@ -51,6 +54,7 @@ export const services: Service[] = [
     details: "Blocked drains can cause water backup and hygiene issues. We use modern techniques to clear blockages quickly without damaging your pipework.",
     icon: "Wind",
     image: "https://images.unsplash.com/photo-1585704032915-c3400ca199e7?auto=format&fit=crop&w=800&q=80",
+    imageAlt: "Plumber clearing and cleaning residential drainage pipes",
   },
   {
     id: "bathroom-plumbing",
@@ -59,6 +63,7 @@ export const services: Service[] = [
     details: "From new suite installation to damaged pipe repair, we handle all aspects of bathroom plumbing. We work with your designer or recommend solutions for your needs.",
     icon: "Droplet",
     image: "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=800&q=80",
+    imageAlt: "Newly renovated modern bathroom plumbing and fixtures",
   },
   {
     id: "kitchen-plumbing",
@@ -67,6 +72,7 @@ export const services: Service[] = [
     details: "Install new taps, dishwashers, and water systems. We handle all kitchen plumbing requirements, from simple tap replacement to complex water system installation.",
     icon: "Utensils",
     image: "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=800&q=80",
+    imageAlt: "Modern kitchen sink and tap plumbing installation",
   },
   {
     id: "boiler-repairs",
@@ -74,7 +80,8 @@ export const services: Service[] = [
     description: "Expert boiler repair and servicing for all makes",
     details: "Gas and oil boiler repairs, breakdowns, and servicing. Our engineers diagnose issues quickly and provide effective repairs to restore your heating.",
     icon: "Wrench",
-    image: "https://images.unsplash.com/photo-1542013936693-84d4b65e3abb?auto=format&fit=crop&w=800&q=80",
+    image: "https://images.unsplash.com/photo-1517646277262-5a5f9635b71c?auto=format&fit=crop&w=800&q=80", // Fixed broken link
+    imageAlt: "Heating engineer servicing and repairing a home boiler",
   },
   {
     id: "installations",
@@ -83,5 +90,6 @@ export const services: Service[] = [
     details: "New construction, extensions, or full system upgrade. We design and install reliable plumbing systems that meet all current building regulations.",
     icon: "Settings",
     image: "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=800&q=80",
+    imageAlt: "New piping and full system plumbing installation",
   },
 ];
